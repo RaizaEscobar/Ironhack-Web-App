@@ -5,6 +5,7 @@
     -ms-text-size-adjust: 100%;
 }
 
+
 .nav-bar{
     position: fixed;
     top: 0;
@@ -54,13 +55,13 @@
 }
 .coverSection-div{
    background-color: white;
-    height: 40%;
     width: 60%;
     border-radius:20px;
-    margin: 0 auto ;
+    margin: 30px auto 0 auto ;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-bottom: 20px;
     
 }
 .coverSection-div-button{
@@ -69,7 +70,7 @@
 }
 
 .coverSection-div-button button{
-    background: #1bb1dc;
+    background:linear-gradient(to bottom right, rgba(18, 187, 173, 0.9) 0%, rgba(79, 112, 206, 0.9) 100%);
     color: #fff;
     border-radius: 4px;
     letter-spacing: 1px;
@@ -89,14 +90,12 @@
 
 .filters{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .filters div{
-    width: 40%;
-    margin-top: 50px;
-    align-self: center git;
+    margin: 50px 0;
 }
 
 .resultsection{
@@ -121,6 +120,14 @@
 .informationContainer div{
     width: 30%;
     height: 100%;
+    color: white;
+    
+}
+.informationContainer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
 }
 .resultsection p{
     font-size: 30px;
@@ -130,15 +137,26 @@
     height: 100%;
     width: 100%;
 }
-
+#maps{
+    height: 250px;
+    width: 400px;
+}
 
     .footer{
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
+      
+        justify-content: center;
         align-items: center;
-        background-color:#333 ;
-        display: flex;
         flex-direction: row ;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        background-color: rgb(16, 39, 53);
+        color: white;
+        
+}
+.map-frame{
+    height: 500px;
+    width: 200px;
 }
 
