@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="proyecto.css">
+    </head>
+    <body>
+        <!--Nav Bar-->
+        <nav class="nav-bar top-nav-bar">
+            <div class="nav-bar-div"> <img src="Imagenes/moveki_Logo.PNG"></div>
+            <div>
+                <ul>
+                    <li><a href="#">Login up</a></li>
+                    <li><a href="#"> Sign up</a></li>
+                    <li><a href="#"> where I am?</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Cover section -->
+        <section class="coverSection">
+            
+            <div class="coverSection-div">
+                <div class ="filters">
+                    <div>
+                        <label> Type of Food</label>
+                        <select name="filterType" id="filterType">
+                            <option value="0">All Types</option>
+                            <option value="387">Asian</option>
+                            <option value="385">African</option>
+                            <option value="436">Italian</option>
+                            <option value="451">Indian</option>
+                            <option value="453">Argentinian</option>
+                            <option value="789">Mediterranean</option>
+                            <option value="457">Mexican</option>
+                            <option value="458">Peruvian</option>
+                            <option value="459">American</option>
+                            <option value="113">International</option>
+                            <option value="485">Vegetarian</option>
+                            <option value="791">Sea Food</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label> Price</label>
+                        <select name="filterPrice" id="filterPrice"> 
+                            <option value="15"> Hasta 15€</option>
+                            <option value="20"> Hasta 20€</option>
+                            <option value="30"> Hasta 30€</option>
+                            <option value="40"> Hasta 40€</option>
+                            <option value="50"> Hasta 50€</option>
+                            <option value="0">  Más de 50€</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label> Minimun Rating</label>
+                        <input type="range" min="0" max="10" step="0.5" id="filterRange">
+                        <span id="rangeValue"> </span>
+                    </div>
+                    <div>
+                        <label></label>
+                        <input>
+                    </div>
+                </div>
+                <div class="coverSection-div-button">
+                    <button><b>Choose for me</b></button>
+                </div> 
+            
+        </div>
+        </section>
+        <!-- Results section-->
+        <section class="resultsection">
+            <p> "Tu eleccion es":</p>
+            <div>
+                <img id="picture" >
+                <span id="name"> </span>
+                <div>
+                    <ul>
+                        <li> Tipo: <span id="type"> </span></li>
+                        <li> ranking: <span id="ranking"> </span></li>
+                        <li> Distancia: <span id="distance"> </span>km</li>
+                        <li> Precio medio: <span id="middlePrice"> </span>€</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--More information section-->
+        <section class="moreInformationsection">
+            <div>
+                <p> </p>
+            </div>
+            <iframe id="maps">
+            </iframe>
+        </section>
+        <footer class="footer">
+            <div>
+                <h2> aaaaa</h2>
+                <p>bbbbb</p>
+                <a></a>
+            </div>
+            <div>
+                <h2>cccccc</h2>
+                <p>dddddd</p>
+                <a></a>
+            </div>
+        </footer>
+       <script src="proyecto.jsx" ></script>
+    </body>
+</html>
