@@ -50,7 +50,7 @@
     background-image: url("./Imagenes/pexels-pixabay-357743.jpg");
     height: 874px;
     background-size: cover;
-    padding: 100px;
+    padding: 150px;
 }
 .coverSection-div{
    background-color: white;
@@ -68,6 +68,24 @@
     justify-content: center;
 }
 
+.coverSection-div-button button{
+    background: #1bb1dc;
+    color: #fff;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 0.5s;
+    font-weight: 600;
+    padding: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    
+
+}
+.coverSection-div-button button :hover{
+    background: #0a98c0;
+}
+
 
 .filters{
     display: flex;
@@ -78,7 +96,7 @@
 .filters div{
     width: 40%;
     margin-top: 50px;
-    align-self: center;
+    align-self: center git;
 }
 
 .resultsection{
@@ -91,21 +109,26 @@
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    width: 40%;
 
 }
-.resultsection div{
+.informationContainer{
+    height: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    justify-content:flex-end;
-   
+    justify-content: space-around;       
+}
+.informationContainer div{
+    width: 30%;
+    height: 100%;
 }
 .resultsection p{
     font-size: 30px;
     text-align: center;
 }
 #picture{
-    height: 80%;
+    height: 100%;
+    width: 100%;
 }
 
 
