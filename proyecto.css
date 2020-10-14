@@ -9,6 +9,7 @@
 .nav-bar{
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +71,7 @@
 }
 
 .coverSection-div-button button{
+    border-color: transparent;
     background:linear-gradient(to bottom right, rgba(18, 187, 173, 0.9) 0%, rgba(79, 112, 206, 0.9) 100%);
     color: #fff;
     border-radius: 4px;
@@ -80,11 +82,8 @@
     padding: 12px;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
+    cursor: pointer;
     
-
-}
-.coverSection-div-button button :hover{
-    background: #0a98c0;
 }
 
 
@@ -143,17 +142,27 @@
 }
 
     .footer{
-      
-        justify-content: center;
-        align-items: center;
-        flex-direction: row ;
-        display: flex;
-        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 30px;
         margin-right: -15px;
         margin-left: -15px;
         background-color: rgb(16, 39, 53);
         color: white;
         
+     }
+     .footer-texto{
+         text-align: center;
+     }
+.footer-div{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        
+}
+.footer-ul{
+    list-style: none;
+    padding: 0;
 }
 .map-frame{
     height: 500px;
