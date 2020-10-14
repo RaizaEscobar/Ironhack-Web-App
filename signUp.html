@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="log-in.css">
+    </head>
+    <body>
+        <!--Nav Bar-->
+        <nav class="nav-bar ">
+            <div class="nav-bar-div" ><a href="proyecto.html"> <img src="Imagenes/moveki_Logo.PNG"></a></div>
+            <div>
+                <ul>
+                    <li><a href="login.html">Login </a></li>
+                    <li><a href="signUp.html"> Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="login-box">
+            <h2>Sign Up</h2>
+            
+            <form action="">
+                <div class="user-box">
+                    <input type="text" id="name" required/>
+                    <label>Name</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" id="email" required/>
+                    <label>Email</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" id="password" required/>
+                    <label>Password</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" id="repeat-password" required />
+                    <label>Repeat Password</label>
+                </div>
+                <a href="#" id="signup-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Sign Up
+                </a>
+            </form>
+            <div class="message-container">
+            </div>            
+        </section>
+        <script src="sign-up.js"></script>
+        <script src="user.jsx"></script>
+        <script src="database.jsx"></script>
+        <script src="validator.js"></script>
+    </body>
+</html>

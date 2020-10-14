@@ -7,71 +7,141 @@
     <body>
         <!--Nav Bar-->
         <nav class="nav-bar top-nav-bar">
-            <div> <img></div>
+            <div class="nav-bar-div" ><a href="proyecto.html"> <img src="Imagenes/moveki_Logo.PNG"></a></div>
             <div>
                 <ul>
-                    <li><a href="#">Login up</a></li>
-                    <li><a href="#"> Sign up</a></li>
-                    <li><a href="#"> where I am?</a></li>
+                    <li><a href="login.html">Login </a></li>
+                    <li><a href="signUp.html"> Sign up</a></li>                    
                 </ul>
             </div>
         </nav>
         <!--Cover section -->
         <section class="coverSection">
-            <div>
-               <h4>"Application name</h4>
-            </div>
-            <div class="coverSection-div">
-                <div>
-                    <div>
-                        <label></label>
-                        <input>
-                    </div>
-                    <div>
-                        <label></label>
-                        <input>
-                    </div>
-                    <div>
-                        <label></label>
-                        <input>
-                    </div>
-                </div>
-                <div>
-                    <button .coverSection-div-button><b>Choose for me</b></button>
-                </div> 
             
-        </div>
+            <div class="coverSection-div">
+                    <div class="filters">
+                        <div>
+                            <label> Type of Food</label>
+                            <select name="filterType" id="filterType">
+                                <option value="0">All Types</option>
+                                <option value="385">African</option>
+                                <option value="386">Ethiopian</option>
+                                <option value="389">Chinese</option>
+                                <option value="390">Korean</option>
+                                <option value="386">Japanese</option>
+                                <option value="432">Spanish</option>
+                                <option value="438">Russian</option>
+                                <option value="450">Fusion</option>
+                                <option value="436">Italian</option>
+                                <option value="896">Pizzeria</option>
+                                <option value="451">Indian</option>
+                                <option value="453">Argentinian</option>
+                                <option value="789">Mediterranean</option>
+                                <option value="465">Lebanese</option>
+                                <option value="457">Mexican</option>
+                                <option value="458">Peruvian</option>
+                                <option value="459">American</option>
+                                <option value="113">International</option>
+                                <option value="485">Vegetarian</option>
+                                <option value="791">Sea Food</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label> Price</label>
+                            <select name="filterPrice" id="filterPrice"> 
+                                <option value="15"> Hasta 15€</option>
+                                <option value="20"> Hasta 20€</option>
+                                <option value="30"> Hasta 30€</option>
+                                <option value="40"> Hasta 40€</option>
+                                <option value="50"> Hasta 50€</option>
+                                <option value="0">  Más de 50€</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="filters">
+                        <div>
+                            <label> Minimun Rating</label>
+                            <input type="range" min="0" max="10" step="0.5" id="filterRange">
+                            <span id="rangeValue"> </span>
+                        </div>
+                        <div>
+                            <label>Post Code</label>
+                            <input type="text" id="filterPostCode">
+                            <a id="geo"><img class="icon" src="Imagenes/placeholder.png"></a>
+                        </div>
+                    </div>
+                    <div class="coverSection-div-button">
+                        <button><b>Choose for me</b></button>
+                    </div> 
+                
+            
+                    </div>
+                    
         </section>
         <!-- Results section-->
         <section class="resultsection">
-            <p> "Tu eleccion es:</p>
+            <p> "Tu eleccion es":</p>
+            <div class="informationContainer">
+                <div >
+                <img id="picture" >
+                </div>
+                <div class="informationContainer-title">
+                <span id="name"> </span>
+            </div>            
             <div>
-                <img src="">
-                <span> Nombre</span>
-                <div>datos restaurante</div>
-            </div>
+                <ul>
+                    <li> Tipo: <span id="type"> </span></li>
+                    <li> ranking: <span id="ranking"> </span></li>
+                    <li> Precio medio: <span id="middlePrice"> </span>€</li>
+                </ul>
+                <iframe id="maps">
+                </iframe>
+            </div>                    
+        </div>
         </section>
         <!--More information section-->
         <section class="moreInformationsection">
             <div>
-                <p> Holaaaaaa</p>
+                <p> </p>
             </div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.142047744348!2d2.3354330160472316!3d48.87456857928921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f817b573%3A0x48d69c30470e7aeb!2sIronhack!5e0!3m2!1sen!2ses!4v1495208746099">
-            </iframe>
+            
         </section>
-        <footer class="footer">
-            <div>
-                <h2> aaaaa</h2>
-                <p>bbbbb</p>
-                <a></a>
-            </div>
-            <div>
-                <h2>cccccc</h2>
-                <p>dddddd</p>
-                <a></a>
-            </div>
-        </footer>
+        <footer class= "footer">
+            <div class="footer-texto">
+                <h2 >Let's Get In Touch!
+                </h2>
+                <h4>
+                     If something is not working, we assure you that you have not broken it, get in touch with us and we will solve it as soon as possible 
+                 </h4>
+          </div>
+            <div class="footer-div">
+               <div> <adress>Mo ve ki<br/> C/Pamplona 96,<br/> 08018 Barcelona, <br/>Spain <br/>+34 699908857</address></div>
+                    <div >
+                          <h>Follow us</h5>
+                          <ul class="footer-ul">
+                              <li>
+                                 <a href="#" target="_blank"> Twitter</a>
+                               </li>
+                               <li>
+                                 <a href="#" target="_blank"> Facebook</a>
+                               </li>
+                               <li>
+                                 <a href="#" target="_blank"> Instagram</a>
+                               </li>
+                         </ul>
+                    </div>
+          
+                <iframe class= ".map-frame"
+                        src="https://maps.google.com/maps?q=ironhack&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                        class="map-frame"
+                        frameborder="0"
+                        style="border:0"
+                        allowfullscreen
+                 ></iframe>
+        </div>
+        
+        </footer> 
        <script src="proyecto.jsx" ></script>
     </body>
 </html>
