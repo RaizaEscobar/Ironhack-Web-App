@@ -11,8 +11,7 @@
             <div>
                 <ul>
                     <li><a href="login.html">Login </a></li>
-                    <li><a href="signUp.html"> Sign up</a></li>
-                    <li><a href="#"> where am I?</a></li>
+                    <li><a href="signUp.html"> Sign up</a></li>                    
                 </ul>
             </div>
         </nav>
@@ -67,8 +66,9 @@
                             <span id="rangeValue"> </span>
                         </div>
                         <div>
-                            <label></label>
-                            <input>
+                            <label>Post Code</label>
+                            <input type="text" id="filterPostCode">
+                            <a id="geo"><img class="icon" src="Imagenes/placeholder.png"></a>
                         </div>
                     </div>
                     <div class="coverSection-div-button">
@@ -93,7 +93,6 @@
                 <ul>
                     <li> Tipo: <span id="type"> </span></li>
                     <li> ranking: <span id="ranking"> </span></li>
-                    <li> Distancia: <span id="distance"> </span>km</li>
                     <li> Precio medio: <span id="middlePrice"> </span>€</li>
                 </ul>
                 <iframe id="maps">
