@@ -208,4 +208,27 @@ html{
       bottom: 100%;
     }
   }
-  
+  @media screen and (max-width: 1300px){
+    .nav-bar a{
+      font-size: 40px;
+  }
+  .nav-bar ul{
+      width: 400px;
+  }
+  .nav-bar{
+      height: 100px;
+  }
+  .login-box{
+    width: 700px;
+    height: 800px;
+  }
+  .login-box {
+    font-size: 50px;
+  }
+  .login-box .user-box label{
+    font-size: 25px;
+  }
+  .login-box form a{
+    font-size: 30px;
+  }
+  }

@@ -41,7 +41,7 @@ class Login {
     if (user) this.redirect();
   }
   redirect = () => {
-    setTimeout( ()=> location.assign('proyecto.html'), 3000);
+    setTimeout( ()=> location.assign('index.html'), 3000);
   }
 }
 const login = new Login();
