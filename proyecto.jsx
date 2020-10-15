@@ -69,6 +69,14 @@ async function search (){
     picture.setAttribute("src",randomRestaurant.mainPhotoSrc);
     let map= document.getElementById("maps");
     map.setAttribute ("src",`https://maps.google.com/maps?q=${randomRestaurant.geo.latitude},${randomRestaurant.geo.longitude}&hl=es&z=14&output=embed`)
+
+    let informationContainer = document.querySelector(".informationContainer");
+    let addressInformation = document.getElementById("address-information");
+    let pictureInformation = document.getElementById("picture");
+    
+    informationContainer.classList.remove("hidden");
+    addressInformation.classList.remove("hidden");
+    pictureInformation.classList.remove("hidden");
 }
 
 async function geoAPI(longitude, latitude)

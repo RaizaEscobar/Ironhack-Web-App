@@ -3,11 +3,13 @@
     <head> 
         <meta charset="UTF-8">
         <link rel="stylesheet" href="proyecto.css">
+       
+        
     </head>
     <body>
         <!--Nav Bar-->
         <nav class="nav-bar top-nav-bar">
-            <div class="nav-bar-div" ><a href="proyecto.html"> <img src="Imagenes/moveki_Logo.PNG"></a></div>
+            <div class="nav-bar-div" ><a href="Index.html"> <img src="Imagenes/moveki_Logo.PNG"></a></div>
             <div>
                 <ul>
                     <li><a href="login.html">Login </a></li>
@@ -21,8 +23,7 @@
             <div class="coverSection-div">
                     <div class="filters">
                         <div>
-                            <label> Type of Food</label>
-                            <select name="filterType" id="filterType">
+                            <select  class="box" name="filterType" id="filterType">
                                 <option value="0">All Types</option>
                                 <option value="385">African</option>
                                 <option value="386">Ethiopian</option>
@@ -46,9 +47,8 @@
                                 <option value="791">Sea Food</option>
                             </select>
                         </div>
-                        <div>
-                            <label> Price</label>
-                            <select name="filterPrice" id="filterPrice"> 
+                        <div >
+                            <select class="box" name="filterPrice" id="filterPrice"> 
                                 <option value="15"> Hasta 15€</option>
                                 <option value="20"> Hasta 20€</option>
                                 <option value="30"> Hasta 30€</option>
@@ -65,9 +65,9 @@
                             <input type="range" min="0" max="10" step="0.5" id="filterRange">
                             <span id="rangeValue"> </span>
                         </div>
-                        <div>
+                        <div class="user-box">
                             <label>Post Code</label>
-                            <input type="text" id="filterPostCode">
+                            <input type="text" id="filterPostCode" required>
                             <a id="geo"><img class="icon" src="Imagenes/placeholder.png"></a>
                         </div>
                     </div>
@@ -81,15 +81,15 @@
         </section>
         <!-- Results section-->
         <section class="resultsection">
-            <p> "Tu eleccion es":</p>
-            <div class="informationContainer">
+            <p> "We have chosen for you...":</p>
+            <div class="informationContainer hidden">
                 <div >
-                <img id="picture" >
+                <img id="picture" class="hidden">
                 </div>
                 <div class="informationContainer-title">
                 <span id="name"> </span>
             </div>            
-            <div>
+            <div class="hidden" id="address-information">
                 <ul>
                     <li> Tipo: <span id="type"> </span></li>
                     <li> ranking: <span id="ranking"> </span></li>
