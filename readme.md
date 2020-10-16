@@ -1,11 +1,11 @@
 **Mo ve ki**
 
-_About Us:_ No sabes donde comer hoy? Cansado de ir siempre a los mismos restaurantes?  Aquello de “mejor viejo conocido que nuevo por conocer” no va contigo? En Moveki no solo queremos hacerte la vida más fácil, sino que queremos que comer fuera sea una aventura, déjanos elegir por ti y te prometemos sorprenderte cada vez que comas fuera.
+ No sabes donde comer hoy? Cansado de ir siempre a los mismos restaurantes?  Aquello de “mejor viejo conocido que nuevo por conocer” no va contigo? En Moveki no solo queremos hacerte la vida más fácil, sino que queremos que comer fuera sea una aventura, déjanos elegir por ti y te prometemos sorprenderte cada vez que comas fuera.
 
 
 ## MVP
 
-_Homepage:_ Página de inicio: el usuario deberá geolocalizarse y establecer los parámetros de búsqueda que quiere aplicar:
+_Página de inicio:_  el usuario deberá geolocalizarse y establecer los parámetros de búsqueda que quiere aplicar:
 o	Determinar el tipo de comida que quiere
 o	El ranking mínimo del restaurante al que desea ir
 o El precio máximo que está dispuesto a pagar
@@ -15,9 +15,9 @@ o	Restaurante que Moveki ha seleccionado: Nobre, precio,ranking y dirección (Ma
 o	Opción de una segunda búsqueda, si al usuario no le gusta el resultado o si ya ha estado en este restaurante
 o	La búsqueda también devolverá, el ranking del restaurante, el precio medio y la ubicación de este
 
-_Signup:_ Registro: Registro para nuevos usuarios
+_Registro:_  Registro para nuevos usuarios
 
-_Login:_ Inicio de sesión: Inicio de sesión de usuarios ya registrados
+Inicio de sesión:_  Inicio de sesión de usuarios ya registrados
 
 
 Estructura de la carpeta
