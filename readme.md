@@ -6,14 +6,14 @@ _About Us:_ No sabes donde comer hoy? Cansado de ir siempre a los mismos restaur
 ## MVP
 
 _Homepage:_ Página de inicio: el usuario deberá geolocalizarse y establecer los parámetros de búsqueda que quiere aplicar:
-•	Determinar el tipo de comida que quiere
-•	El ranking mínimo del restaurante al que desea ir
-• El precio máximo que está dispuesto a pagar
-•	Finalmente, el usuario puede geolocalizarse y decidir si quiere que la busqueda se realice por codigo postal
-• En la página de inicio se mostrará el resultado de la búsqueda, que incluye:
-•	Restaurante que Moveki ha seleccionado: Nobre, precio,ranking y dirección (Mapa)
-•	Opción de una segunda búsqueda, si al usuario no le gusta el resultado o si ya ha estado en este restaurante
-•	La búsqueda también devolverá, el ranking del restaurante, el precio medio y la ubicación de este
+o	Determinar el tipo de comida que quiere
+o	El ranking mínimo del restaurante al que desea ir
+o El precio máximo que está dispuesto a pagar
+o	Finalmente, el usuario puede geolocalizarse y decidir si quiere que la busqueda se realice por codigo postal
+o En la página de inicio se mostrará el resultado de la búsqueda, que incluye:
+o	Restaurante que Moveki ha seleccionado: Nobre, precio,ranking y dirección (Mapa)
+o	Opción de una segunda búsqueda, si al usuario no le gusta el resultado o si ya ha estado en este restaurante
+o	La búsqueda también devolverá, el ranking del restaurante, el precio medio y la ubicación de este
 
 _Signup:_ Registro: Registro para nuevos usuarios
 
