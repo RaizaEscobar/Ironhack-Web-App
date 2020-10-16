@@ -6,6 +6,7 @@
 ## MVP
 
 _Página de inicio:_  el usuario deberá geolocalizarse y establecer los parámetros de búsqueda que quiere aplicar:
+
 o	Determinar el tipo de comida que quiere
 o	El ranking mínimo del restaurante al que desea ir
 o El precio máximo que está dispuesto a pagar
@@ -17,10 +18,7 @@ o	La búsqueda también devolverá, el ranking del restaurante, el precio medio 
 
 _Registro:_  Registro para nuevos usuarios
 
-Inicio de sesión:_  Inicio de sesión de usuarios ya registrados
-
-
-Estructura de la carpeta
+_Inicio de sesión:_  Inicio de sesión de usuarios ya registrados
 
 **.Root/**
 o	index.html
