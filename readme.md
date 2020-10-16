@@ -8,9 +8,10 @@ MVP
 Página de inicio: el usuario deberá geolocalizarse y establecer los parámetros de búsqueda que quiere aplicar:
 •	Determinar el tipo de comida que quiere
 •	El ranking mínimo del restaurante al que desea ir
-•	El máximo de kilómetros que esta dispuesto a recorrer desde su posición
-En la página de inicio también se encontrará el resultado de la búsqueda, que incluye:
-•	Restaurante que Moveki ha seleccionado
+• El precio máximo que está dispuesto a pagar
+•	Finalmente, el usuario puede geolocalizarse y decidir si quiere que la busqueda se realice por codigo postal
+• En la página de inicio se mostrará el resultado de la búsqueda, que incluye:
+•	Restaurante que Moveki ha seleccionado: Nobre, precio,ranking y dirección (Mapa)
 •	Opción de una segunda búsqueda, si al usuario no le gusta el resultado o si ya ha estado en este restaurante
 •	La búsqueda también devolverá, el ranking del restaurante, el precio medio y la ubicación de este
 
@@ -20,10 +21,25 @@ Inicio de sesión: Inicio de sesión de usuarios ya registrados
 
 
 Estructura de la carpeta
+
 .Root/
-o	Proyecto.html
+o	index.html
+o signUp.html
+o log-in.html
+
 o	Proyecto.css
+o log-in.css
+
+
 o	Proyecto.jsx
+o sign-up.js
+o log-in.jsx
+o validator.js
+o database.jsx
+o user.jsx
+
+o carpeta imagenes.jpg
+
 
 Links
 Trello : https://trello.com/b/08yZMXu8/proyecto-modulo-1
