@@ -1,9 +1,9 @@
-Mo ve ki
+**Mo ve ki**
 
 No sabes donde comer hoy? Cansado de ir siempre a los mismos restaurantes?  Aquello de “mejor viejo conocido que nuevo por conocer” no va contigo? En Moveki no solo queremos hacerte la vida más fácil, sino que queremos que comer fuera sea una aventura, déjanos elegir por ti y te prometemos sorprenderte cada vez que comas fuera.
 
 
-MVP
+## MVP
 
 Página de inicio: el usuario deberá geolocalizarse y establecer los parámetros de búsqueda que quiere aplicar:
 •	Determinar el tipo de comida que quiere
@@ -15,14 +15,14 @@ Página de inicio: el usuario deberá geolocalizarse y establecer los parámetro
 •	Opción de una segunda búsqueda, si al usuario no le gusta el resultado o si ya ha estado en este restaurante
 •	La búsqueda también devolverá, el ranking del restaurante, el precio medio y la ubicación de este
 
-Registro: Registro para nuevos usuarios
+_Signup:_ Registro: Registro para nuevos usuarios
 
-Inicio de sesión: Inicio de sesión de usuarios ya registrados
+_Login:_Inicio de sesión: Inicio de sesión de usuarios ya registrados
 
 
 Estructura de la carpeta
 
-.Root/
+**.Root/**
 o	index.html
 o signUp.html
 o log-in.html
