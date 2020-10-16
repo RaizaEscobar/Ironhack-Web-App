@@ -44,11 +44,11 @@ _Inicio de sesión:_  Inicio de sesión de usuarios ya registrados
 
 
 ## Links
-## _Trello:_ https://trello.com/b/08yZMXu8/proyecto-modulo-1
+-  _Trello:_ https://trello.com/b/08yZMXu8/proyecto-modulo-1
 
-##_Git:_ https://raizaescobar.github.io/Ironhack-Web-App/.
+- _Git:_ https://raizaescobar.github.io/Ironhack-Web-App/.
 
-##_API:_ Rapidapi-TheFork : -https://rapidapi.com/apidojo/api/thefork?endpoint=apiendpoint_c7c92bd2-6a40-4cd4-8e18-78a2baca7ac2
+- _API:_ Rapidapi-TheFork : -https://rapidapi.com/apidojo/api/thefork?endpoint=apiendpoint_c7c92bd2-6a40-4cd4-8e18-78a2baca7ac2
 
 ## Recursos
 -Mockup : Balsamic
